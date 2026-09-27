@@ -340,9 +340,7 @@
         var a = el('a', 'semana');
         a.href = '#/' + sec.clave + '/' + sub.clave + '/' + slugDe(item.archivo);
         a.appendChild(el('span', 'n', String(n)));
-        var tieneRegistro = window.Registro && window.Registro.hayRegistro(n);
-        a.appendChild(el('span', 'et', tieneRegistro ? 'Registrada' : 'Semana'));
-        if (tieneRegistro) a.className = 'semana registrada';
+        a.appendChild(el('span', 'et', 'Semana'));
         a.title = item.titulo;
         grilla.appendChild(a);
       } else {
@@ -357,9 +355,8 @@
 
     var ley = el('div', 'leyenda');
     var l1 = el('span'); l1.appendChild(el('i')); l1.appendChild(document.createTextNode('Disponible'));
-    var l2 = el('span'); l2.appendChild(el('i', 'registrada')); l2.appendChild(document.createTextNode('Con registro'));
     var l3 = el('span'); l3.appendChild(el('i', 'falta')); l3.appendChild(document.createTextNode('Todavía no escrita'));
-    ley.appendChild(l1); ley.appendChild(l2); ley.appendChild(l3);
+    ley.appendChild(l1); ley.appendChild(l3);
     destino.appendChild(ley);
 
     if (!sub.items.length) {
@@ -382,11 +379,6 @@
     traerDocumento(item.archivo).then(function (md) {
       vaciar(hueco);
       hueco.appendChild(renderizarMarkdown(md, { vertical: item.vertical === true }));
-
-      /* El registro semanal solo existe en las semanas del curso. */
-      if (item.semana && window.Registro) {
-        hueco.appendChild(window.Registro.crear(item.semana, item.titulo));
-      }
     }).catch(function () {
       vaciar(hueco);
       hueco.appendChild(el('div', 'aviso',

@@ -10,7 +10,7 @@ Esto no arranca de cero. Arranca de acá:
 
 - Tocás *Ain't No Mountain High Enough* y repertorio de Marley.
 - Conocés el mástil y ya trabajaste pentatónicas verticales, horizontales y en una cuerda.
-- Hacés cromático en todas las posiciones, 90 BPM en semicorcheas, todos los días.
+- Tenés una rutina técnica diaria orientada a velocidad en semicorcheas.
 - Venís de la batería: el pulso, la subdivisión y la forma no son el problema.
 - **El problema es la altura en contexto.** Reconocés intervalos aislados y con la app te va bien, pero cuando suena música real te cuesta encontrar las notas.
 
@@ -28,28 +28,47 @@ Si al final de la semana el bloque de oído te resultó cómodo, avisame y subo 
 
 | Bloque | Tiempo | Qué es |
 |---|---|---|
-| Técnica | 10 min | Tu rutina. Sin instrucciones. |
+| Técnica | 23 min | La [rutina de técnica](#/bajo/apuntes/rutina-tecnica), bloques 1 a 3. |
 | Oído | 12 min | El núcleo del curso. |
-| Lenguaje y mástil | 15 min | Incluye 3 min de lectura. |
-| Aplicación (RC-600) | 8 min | Sobre loop propio. |
+| Aplicación | 10 min | 5 min de termómetro + 5 min de técnica sobre la armonía de la semana. |
 
-**El bloque de oído no se saca nunca.** Si un día tenés 30 minutos, recortá técnica y aplicación; el oído queda entero.
+**El bloque de oído no se saca nunca.** Si un día tenés 30 minutos, recortá Creative Bass y el termómetro; el oído queda entero, y los 5 minutos de aplicación armónica también.
 
 ### Sobre el bloque de técnica
 
-Diez minutos, tu cromático en todas las posiciones a 90 BPM en semicorcheas, tal como lo venís haciendo. No hay consigna diaria y no la va a haber. Ese ejercicio ya cumple su función y no necesita que yo le agregue nada.
+Es la [rutina de técnica](#/bajo/apuntes/rutina-tecnica) tal cual: permutaciones (5 min), Complete Fingerstyle (8 min) y Creative Bass (10 min), con sus reglas de progresión. El bloque 4 de la rutina, el termómetro, pasa a Aplicación.
 
-Solo un recordatorio que aplica siempre: si aparece tensión, ruido o desigualdad de volumen, bajá el tempo. Y no subas de 90 — no es el lugar donde vas a crecer.
+Dos cosas que el curso le agrega:
 
-### Sobre el bloque de lectura
+1. **Los ejemplos se leen en la partitura, no en el tab.** Esa es tu lectura. No hay bloque aparte: leés el material que igual vas a tocar. El tab queda para confirmar la posición cuando dudás, después de haber leído la nota.
+2. **Cuando el ejemplo es de escala** (CF 5a–5c, por ejemplo), una vuelta en la tonalidad del libro y otra en la tonalidad de la semana. Esta semana, **D mayor**. Así los dedos practican las mismas notas que después usás sobre los acordes.
 
-Tres minutos dentro del bloque de lenguaje, en tu propia herramienta de lectura en clave de Fa, **limitados a las notas del material de la semana**. Esta semana: D, F#, A, B, G. Nada más.
+La [herramienta de lectura](herramientas/lectura/) sigue ahí para el día que quieras reforzar, pero no es parte de la sesión.
 
-La idea es que la lectura entre por el material que ya estás tocando, no como ejercicio aparte que compite por tiempo.
+### Sobre la aplicación
+
+Dos partes, siempre en este orden:
+
+**Termómetro (5 min).** "Hit Me With Your Rhythm Stick", como dice la rutina: BPM limpio de punta a punta, +5 como máximo por sesión.
+
+**Técnica sobre armonía (5 min).** Sobre el loop de la RC-600, con el vamp de la semana. Acá se juntan los otros dos bloques: **las notas las define la armonía, el ritmo lo pone la técnica.** Las notas son las que trabajaste en oído; la mano derecha es la de la rutina (raking al cruzar cuerdas, alternancia estricta, semicorcheas cuando la consigna lo pide).
+
+Cada día tiene su consigna. Es corta a propósito: una sola idea armónica por día, bien hecha.
+
+### Dónde entran las escalas
+
+No hay bloque de escalas, porque la escala no es un ejercicio aparte: es el grupo de notas de la tonalidad. La de D mayor es D E F# G A B C#, y los acordes de la semana salen de ahí: **D** = D F# A, **G** = G B D, **Bm** = B D F#. Cuando el curso habla de "la 3" o "la 6", está contando posiciones dentro de esa escala.
+
+Pensalo como en la batería:
+
+- **Las notas del acorde (1, 3, 5)** son el bombo y el redoblante. Caen en los tiempos fuertes y dicen qué está pasando.
+- **Las otras notas de la escala** son las ghost notes y los rellenos. Van entre medio, de paso, llevándote de un acorde al siguiente.
+
+Nadie arma un groove empezando por las ghost notes. Por eso esta semana la aplicación usa **solo notas del acorde**. Las notas de paso de la escala entran más adelante, cuando las notas del acorde te salgan sin pensar. Mientras tanto, la escala vive en la técnica (mecánica) y en el oído (funciones).
 
 ### Sobre las clases con el profe
 
-El profe tiene prioridad sobre este plan, siempre. Si te da algo que se superpone o contradice, se hace lo del profe y este plan cede el bloque de técnica de esa semana. Los ejercicios en video entran en el bloque de lenguaje, no se suman encima.
+El profe tiene prioridad sobre este plan, siempre. Si te da algo que se superpone o contradice, se hace lo del profe. Los ejercicios en video ocupan el lugar de Creative Bass ese día; no se suman encima.
 
 ---
 
@@ -87,13 +106,17 @@ Dos vamps, un compás por acorde, **75 BPM**:
 - **D | G** (I–IV)
 - **D | Bm** (I–vi)
 
-Notas en juego: D, F#, A, B, G.
+Notas en juego: D, F#, A, B, G. Tonalidad: D mayor.
 
 ---
 
 # Día 1 — Anclar el centro
 
 **Objetivo:** que la fundamental deje de ser una nota que buscás y pase a ser un lugar que oís.
+
+### Técnica — 23 min
+
+La rutina. Permutaciones del lunes.
 
 ### Oído — 12 min
 
@@ -107,29 +130,25 @@ Recién ahí agarrás el bajo y comprobás las tres series. No corrijas cantando
 
 Esto último te va a resultar raro: la parte rítmica te sale sola y la de altura no. Es exactamente el desbalance que estamos atacando.
 
-**Registro:** cuántas de las 10 entradas cayeron en la nota correcta al primer intento.
+### Aplicación — 10 min
 
-### Lenguaje y mástil — 15 min
+**Termómetro (5 min).**
 
-**12 min.** Sobre el vamp D | G, construí líneas usando **solo 1, 3 y 5**, en una zona de cuatro trastes, sin cambiar de posición. En cada cambio de acorde elegí la nota del acorde nuevo más cercana a la última que tocaste.
+**Técnica sobre armonía (5 min).** Vamp D | G. Solo 1, 3 y 5, en una zona de cuatro trastes, sin cambiar de posición. En cada cambio de acorde, la nota del acorde nuevo **más cercana** a la última que tocaste.
 
-Cuatro versiones distintas de dos compases. Ninguna puede repetir a la anterior.
+Primero en negras hasta que el camino salga solo. Después las mismas notas en corcheas, con la mano derecha de la rutina: alternancia estricta y raking cuando cruzás a una cuerda más grave.
 
-**3 min lectura.** Herramienta de lectura, solo D, F#, A, B, G.
-
-### Aplicación — 8 min
-
-Grabá dos minutos sobre el loop. Primera vuelta: solo negras. Segunda: negras, corcheas y silencios, sin agregar notas nuevas.
-
-Escuchá y anotá una sola cosa: **qué compás usarías en una canción de verdad.**
-
-**Aprobación del día:** 8 de 10 entradas correctas en la Parte B, y cuatro versiones realmente distintas.
+**Aprobación del día:** 8 de 10 entradas correctas en la Parte B de oído, y dos vueltas seguidas de D | G sin buscar la nota del cambio.
 
 ---
 
 # Día 2 — Mayor y menor: el cambio de color
 
 **Objetivo:** oír la calidad del acorde antes de que tu mano vaya a buscarla.
+
+### Técnica — 23 min
+
+La rutina. Permutaciones del martes.
 
 ### Oído — 12 min
 
@@ -141,19 +160,15 @@ No busques afinación de cantante. Buscá el cambio de color. Si te sale la fund
 
 *Si estás solo:* grabá en la RC-600 ocho compases alternando D y Bm en un orden que anotes en un papel y no mires. Reproducís, respondés en voz alta, y recién al final cotejás.
 
-### Lenguaje y mástil — 15 min
+### Aplicación — 10 min
 
-**12 min.** Sobre D | Bm, buscá la **nota común** entre los dos acordes (hay dos: D y F#) y armá líneas que la usen como pivote — que la nota común caiga en el tiempo 1 de una vuelta y en el tiempo 4 de la siguiente.
+**Termómetro (5 min).**
 
-Después, dos vueltas donde el tiempo 1 sea la fundamental, y dos donde sea la tercera. Compará cómo cambia el peso.
+**Técnica sobre armonía (5 min).** Vamp D | Bm. Los dos acordes comparten dos notas: **D y F#**. Usalas de pivote: la nota común en el tiempo 1 de una vuelta y en el tiempo 4 de la siguiente.
 
-**3 min lectura.**
+Después, una vuelta con la fundamental en el tiempo 1 y otra con la tercera. Oí cómo cambia el peso: con la tercera abajo el acorde pierde firmeza, y en el Bm, poner D en el bajo lo acerca tanto a D que casi no se oye el cambio.
 
-### Aplicación — 8 min
-
-Cuatro vueltas grabadas: 1) fundamentales, 2) fundamentales y quintas, 3) tríadas, 4) libre con máximo cuatro notas por compás.
-
-**Aprobación del día:** 8 de 10 en mayor/menor, y las dos notas comunes identificadas sin buscarlas en el mástil.
+**Aprobación del día:** 8 de 10 en mayor/menor, y las dos notas comunes encontradas sin buscarlas en el mástil.
 
 ---
 
@@ -161,23 +176,23 @@ Cuatro vueltas grabadas: 1) fundamentales, 2) fundamentales y quintas, 3) tríad
 
 **Objetivo:** dejar de resolver los cambios saltando a la fundamental.
 
+### Técnica — 23 min
+
+La rutina. Permutaciones del miércoles.
+
 ### Oído — 12 min
 
 **Parte A (6 min).** Drone de D. Cantá una nota cualquiera del acorde, sostenela, y **movete al semitono o tono más cercano que siga perteneciendo al acorde**. Sin bajo. El objetivo es sentir distancias chicas, no saltos.
 
 **Parte B (6 min).** Vamp D | G. Elegí mentalmente una nota de D, cantala, y cantá después la nota de G más cercana. Comprobá en el bajo. Ocho repeticiones, cambiando la nota de partida.
 
-### Lenguaje y mástil — 15 min
+### Aplicación — 10 min
 
-**12 min.** Regla dura: sobre D | G, **prohibido tocar la fundamental en el tiempo 1**. Tenés que resolver el cambio con tercera, quinta o una aproximación, y que igual se entienda cuál es el acorde.
+**Termómetro (5 min).**
 
-Esto es incómodo a propósito. Es la situación real del trío: con dos guitarras y sin teclado, la nota que elegís define el color de todo.
+**Técnica sobre armonía (5 min).** Vamp D | G. Regla dura: **prohibido tocar la fundamental en el tiempo 1**. Resolvés el cambio con la tercera o la quinta, y igual tiene que entenderse cuál es el acorde.
 
-**3 min lectura.**
-
-### Aplicación — 8 min
-
-Noventa segundos grabados donde cada cuarta vuelta tenga un compás entero de silencio antes de volver a D. El pulso interno tiene que sobrevivir el silencio.
+Es incómodo a propósito. Es la situación real del trío: con dos guitarras y sin teclado, la nota que elegís define el color de todo.
 
 **Aprobación del día:** dos vueltas completas sin fundamental en el tiempo 1 y con la armonía todavía clara.
 
@@ -187,33 +202,37 @@ Noventa segundos grabados donde cada cuarta vuelta tenga un compás entero de si
 
 **Objetivo:** desacoplar el oído de la vista.
 
+### Técnica — 23 min
+
+La rutina. Permutaciones del jueves.
+
 ### Oído — 12 min
 
 Todo el bloque **sin mirar el bajo**. Ponete de frente a una pared o cerrá los ojos.
 
-**Parte A (6 min).** Drone de D. Te digo una función (3, 5, 6, b7), la cantás, y la tocás sin mirar. Doce intentos. Anotá cuántas veces la primera nota que tocaste fue la correcta.
+**Parte A (6 min).** Drone de D. Te decís una función (3, 5, 6, b7), la cantás, y la tocás sin mirar. Doce intentos. Contá cuántas veces la primera nota que tocaste fue la correcta.
 
 **Parte B (6 min).** El loop alterna D | G y D | Bm al azar. Antes de tocar, identificás si el segundo acorde **sube, baja o comparte nota** con el primero.
 
-### Lenguaje y mástil — 15 min
+### Aplicación — 10 min
 
-**12 min.** Acá entra la batería. Cantá una línea de bombo simple — la que quieras, algo que usarías vos tocando — y **construí la línea de bajo desde ese patrón**, no desde la armonía. Primero el ritmo, después qué nota va en cada golpe.
+**Termómetro (5 min).**
 
-Es el camino inverso al de un bajista de formación, y es tu ventaja. Hacelo con los dos vamps.
+**Técnica sobre armonía (5 min).** Acá entra la batería. Cantá una línea de bombo simple — algo que usarías vos tocando — y **construí la línea de bajo desde ese patrón**, no desde la armonía. Primero el ritmo; después, qué nota del acorde va en cada golpe.
 
-**3 min lectura.**
+Es el camino inverso al de un bajista de formación, y es tu ventaja. Un vamp alcanza; si sobra tiempo, el otro.
 
-### Aplicación — 8 min
-
-Ocho mini-tomas de 20 segundos, una por cada solución que encontraste. No corregís en el medio de la toma: si te equivocás, recuperás y seguís.
-
-**Aprobación del día:** 6 de 8 movimientos identificados correctamente, y un error recuperado sin frenar.
+**Aprobación del día:** 6 de 8 movimientos identificados correctamente en la Parte B de oído, y un error recuperado sin frenar.
 
 ---
 
-# Día 5 — Repertorio real y control semanal
+# Día 5 — Repertorio real y toma de la semana
 
 **Objetivo:** cerrar la brecha entre la app y la música.
+
+### Técnica — 23 min
+
+La rutina. Permutaciones del viernes.
 
 ### Oído — 12 min
 
@@ -229,38 +248,24 @@ Recién al final, tocala y verificá si las funciones que dijiste eran correctas
 
 Esta es la brecha exacta que describiste: la app te sale porque el intervalo está aislado; la música real no, porque nunca convertiste lo que ya tocás en algo que oís.
 
-### Lenguaje y mástil — 15 min
+### Aplicación — 10 min
 
-**12 min.** Sobre uno de los dos vamps, armá una frase A de dos compases y una respuesta B de dos compases. Mantené el contorno reconocible durante cuatro vueltas — variando el ritmo, pero no la forma.
+**Termómetro (5 min).**
 
-**3 min lectura.**
+**Toma de la semana (5 min).** Sobre uno de los dos vamps, una frase A de dos compases y una respuesta B de dos compases, solo con notas del acorde. Grabá dos minutos manteniendo el contorno reconocible: variás el ritmo, no la forma.
 
-### Aplicación — 8 min
+Escuchala y anotá una sola cosa: **qué compás usarías en una canción de verdad.**
 
-Tres tomas de dos minutos: minimalista, melódica y orientada al groove. Elegí una y escribí en una línea por qué funciona.
-
-**Aprobación de la semana:** 80% de aciertos auditivos acumulados, y al menos una toma con forma A-B clara.
+**Aprobación de la semana:** la mayoría de las entradas de oído correctas al primer intento, y una toma con forma A-B clara.
 
 ---
 
-## Registro semanal
+## Para pasarme al final de la semana
 
-| Categoría | 0 | 1 | 2 | Puntaje |
-|---|---|---|---|---|
-| Altura en contexto | Adivina buscando | Canta con ayuda | Anticipa y comprueba | __/2 |
-| Aterrizajes armónicos | Ambiguos | Mayormente correctos | Correctos y expresivos | __/2 |
-| Economía de mástil | Saltos innecesarios | Algunas rutas eficientes | Rutas elegidas conscientemente | __/2 |
-| Musicalidad | Acumula notas | Frases funcionales | Espacio y desarrollo | __/2 |
-| Lectura | No reconoce | Reconoce con demora | Reconoce al instante | __/2 |
-| | | | **Total** | **__/10** |
+En texto libre, como te salga:
 
-No hay categoría de pulso: no la necesitás.
-
-**Aprobada con 8/10** y ninguna categoría en 0. Si no aprobás, no repetís la semana entera — repetís los dos días de la categoría más floja.
-
-### Datos para pasarme al final de la semana
-
-- Aciertos de oído por día (los números crudos).
+- Aciertos de oído por día (los números crudos, si los anotaste).
+- BPM del termómetro al principio y al final de la semana.
 - Qué bloque se te hizo largo y cuál corto.
 - Si el vamp de dos acordes te aburrió, y en qué día.
 - Cualquier cosa que hayas probado y no funcionó como está escrito.

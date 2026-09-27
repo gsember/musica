@@ -24,8 +24,8 @@ Dos pasos, siempre:
 { "archivo": "bajo/clases/2026-08-12-modos.md", "titulo": "Modos sobre vamps", "fecha": "2026-08-12" }
 ```
 
-Campos posibles: `archivo`, `titulo`, `descripcion`, `fecha`, `semana` (activa el
-registro semanal) y `vertical: true` (para videos filmados en vertical).
+Campos posibles: `archivo`, `titulo`, `descripcion`, `fecha`, `semana` (ubica el
+archivo en la grilla del curso) y `vertical: true` (para videos filmados en vertical).
 
 Una URL de YouTube sola en su renglón se convierte en reproductor. No se escribe HTML.
 
@@ -36,6 +36,6 @@ index.html          Shell único, ruteo por hash
 contenido.json      Índice de todo el contenido
 contenido/          El material, en markdown
 css/                Estilos + fuentes autoalojadas
-js/                 app.js (ruteo y render), registro.js, lib/marked.min.js
+js/                 app.js (ruteo y render), lib/marked.min.js
 herramientas/       Herramientas interactivas — no se tocan
 ```

@@ -39,7 +39,13 @@
         "vertical": true
       }
     ],
-    "apuntes": []
+    "apuntes": [
+      {
+        "archivo": "bajo/apuntes/rutina-tecnica.md",
+        "titulo": "Rutina diaria de técnica",
+        "descripcion": "Permutaciones, Complete Fingerstyle, Creative Bass y el termómetro de velocidad. Es el bloque de técnica del curso."
+      }
+    ]
   },
   "bateria": {
     "titulo": "Batería",

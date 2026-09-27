@@ -75,7 +75,6 @@ El uso real es: el teléfono o una tablet apoyados en un atril, mientras se toca
 │
 ├── js/
 │   ├── app.js              Ruteo y render
-│   ├── registro.js         Registro semanal del curso
 │   └── lib/
 │
 └── css/
@@ -112,7 +111,7 @@ Las secciones y subsecciones no están fijas en el código: se leen de este arch
 
 Home con dos accesos grandes: **Bajo** y **Batería**. Dentro de bajo: Curso, Clases, Apuntes, y acceso a la herramienta de lectura.
 
-El curso se lista como grilla de 24 semanas, con las completadas marcadas visualmente. Las semanas que todavía no tienen archivo se muestran en gris y no son clickeables.
+El curso se lista como grilla de 24 semanas. Las semanas que todavía no tienen archivo se muestran en gris y no son clickeables.
 
 Ruteo por hash (`#/bajo/curso/semana-01`) para que funcione en GitHub Pages sin configuración de servidor.
 
@@ -130,16 +129,13 @@ https://www.youtube.com/watch?v=XXXXXXXXXXX
 Notas de la clase: prestar atención al apagado de la mano derecha.
 ```
 
-### Registro del curso
+### Sin registro
 
-Cada semana del curso tiene un registro asociado: puntajes de rúbrica (5 categorías de 0 a 2), aciertos de oído por día, y dos campos de texto libre.
+No hay registro de progreso en el sitio (rúbricas, aciertos, exportaciones). Existió y se sacó a pedido: la página tiene que ser ágil. El seguimiento se anota en texto libre, fuera del sitio. No volver a agregarlo sin que se pida.
 
-- Se guarda en `localStorage`. Sin backend, sin cuentas.
-- Persiste entre visitas y sobrevive a recargas.
-- **Botón de exportar obligatorio**: vuelca todo el registro de la semana como texto plano listo para copiar. Es la forma de sacar los datos del sitio, y se usa siempre.
-- Botón de borrar registro, con confirmación.
+### Sesión diaria del curso
 
-El registro no vive en el markdown. El markdown de la semana define el contenido; el registro es del usuario.
+Cada semana sigue la misma estructura de 45 minutos: Técnica 23' (la rutina de `bajo/apuntes/rutina-tecnica.md`, bloques 1 a 3; los ejemplos se leen en partitura, esa es la lectura) + Oído 12' (no se recorta nunca) + Aplicación 10' (5' de termómetro + 5' de técnica sobre la armonía de la semana, con una consigna por día).
 
 ### Búsqueda
 
