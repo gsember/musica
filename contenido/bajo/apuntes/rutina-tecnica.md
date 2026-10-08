@@ -60,11 +60,11 @@ El resto del libro (muteo, tono, recursos expresivos, acordes, piezas) queda com
 
 | Días | Ejemplo | Por qué |
 |---|---|---|
-| Lunes · Miércoles · Viernes | **4h** | Inspirado en la línea de Norman Watt-Roy: pentatónica menor de G en semicorcheas por las cuatro cuerdas, alternancia estricta |
+| Lunes · Miércoles · Viernes | **4i** | Inspirado en la línea de Norman Watt-Roy: pentatónica menor de G en semicorcheas por las cuatro cuerdas, alternancia estricta |
 | Martes · Jueves · Sábado | **4a** | Semicorcheas estilo Rocco Prestia; objetivo 120, empezar bastante más lento |
 | Domingo | El que venga más atrasado | — |
 
-Cuando el ejemplo del día llegue a 4h o 4a, pasá al siguiente del libro.
+Cuando el ejemplo del día llegue a 4a o 4i, pasá al siguiente del libro.
 
 ### Tempos que da el libro
 
@@ -97,6 +97,7 @@ Solo los ejemplos que traen indicación; en el resto, usar la regla +5 BPM.
 
 **Notas**
 
+- En el libro, cada etiqueta "Example" va arriba de su figura, y el texto que la sigue habla del ejemplo siguiente. Por eso el de Norman Watt-Roy es el **4i** (p. 43), aunque su explicación aparezca debajo del 4h.
 - En el capítulo de jazz el texto numera corrido uno respecto de las figuras: el de extensiones es la figura **6e**, y el de raking con ghost notes (estilo Jaco) es la figura **6f**. Esta rutina usa siempre la letra de la figura.
 - No son fingerstyle: 2b, 4e, 5a, 5b (púa); 4c, 4g, 5f, 5g (slap); 5j, 7g (tapping). Si el tiempo no alcanza, son los primeros que se pueden recortar.
 

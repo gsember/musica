@@ -43,6 +43,12 @@ Dos cosas que el curso le agrega:
 1. **Los ejemplos se leen en la partitura, no en el tab.** Esa es tu lectura. No hay bloque aparte: leés el material que igual vas a tocar. El tab queda para confirmar la posición cuando dudás, después de haber leído la nota.
 2. **Cuando el ejemplo es de escala** (CF 5a–5c, por ejemplo), una vuelta en la tonalidad del libro y otra en la tonalidad de la semana. Esta semana, **D mayor**. Así los dedos practican las mismas notas que después usás sobre los acordes.
 
+Cada día de abajo trae los ejemplos concretos, con página y tempo. La selección es la de velocidad: en Complete Fingerstyle, de raking y rolling (2f–2g) a Building Speed (5a–5b); en Creative Bass, el capítulo 1 en orden más los dos fijos de semicorcheas, 4i y 4a.
+
+**Cómo sube el tempo.** Cada ejemplo trae su BPM del día. Los que dicen *(libro)* son de Hawkins; el resto son puntos de partida míos, conservadores a propósito. Entre una vez y la siguiente se suben 5 BPM. Si el tempo del día no sale limpio, bajás de a 5 hasta que salga: ese número manda, y los días siguientes se cuentan desde ahí. Si salió limpio el día anterior pero hoy no, repetís el de ayer. "Limpio" quiere decir tres vueltas seguidas sin notas apagadas, sin ruido de cuerdas y sin correrte del clic.
+
+Si un ejemplo del día no salió, al día siguiente lo repetís y el plan corre un lugar.
+
 La [herramienta de lectura](herramientas/lectura/) sigue ahí para el día que quieras reforzar, pero no es parte de la sesión.
 
 ### Sobre la aplicación
@@ -116,7 +122,16 @@ Notas en juego: D, F#, A, B, G. Tonalidad: D mayor.
 
 ### Técnica — 23 min
 
-La rutina. Permutaciones del lunes.
+**Permutaciones · 5 min** (CF p. 19). 1-2-3-4 · 1-2-4-3 · 1-3-2-4 · 1-3-4-2. Treinta segundos cada una, con metrónomo.
+
+**Complete Fingerstyle · 8 min — 2f y 2g** (CF p. 29–30).
+
+- **2f (3 min), lento y sin metrónomo.** Fill sobre la pentatónica menor de A. Antes de tocarlo, leé la partitura y marcá dónde hay raking (bajás a la cuerda más grave con el mismo dedo que acaba de pulsar) y dónde hay rolling (un mismo dedo de la mano izquierda cubre dos cuerdas en el mismo traste, aplanándolo un poco). Las notas rolladas suenan separadas, no se pisan.
+- **2g (5 min) · 60 BPM.** El mismo riff, en semicorcheas.
+
+**Creative Bass · 5 min — ejemplo del día: 1e · 60 BPM** (CB p. 13). Digitación difícil, sube por el mástil. Arrancás cada compás con el dedo 2, salvo los compases 3 y 7, que arrancan con el 1 y piden un cambio de posición extra: tenelos vistos antes de llegar. Muteo con la mano derecha: el pulgar apoyado en la cuerda de abajo de la que tocás (en la E, sobre el micrófono). Si suena una cuerda que no tocaste, es el ejercicio.
+
+**Creative Bass · 5 min — fijo: 4i · 60 BPM** (CB p. 43). Pentatónica menor de G en semicorcheas por las cuatro cuerdas, en las dos primeras formas. Es el vocabulario de Norman Watt-Roy en "Hit Me With Your Rhythm Stick": este ejercicio y el termómetro suben juntos. Alternancia estricta, salvo las dos primeras notas de cada compás, que van con el índice las dos. Todas las notas del mismo largo.
 
 ### Oído — 12 min
 
@@ -148,7 +163,13 @@ Primero en negras hasta que el camino salga solo. Después las mismas notas en c
 
 ### Técnica — 23 min
 
-La rutina. Permutaciones del martes.
+**Permutaciones · 5 min** (CF p. 19). 1-4-2-3 · 1-4-3-2 · 2-1-3-4 · 2-1-4-3. Treinta segundos cada una, con metrónomo.
+
+**Complete Fingerstyle · 8 min — 2g · 65 BPM** (CF p. 30). Los 8 minutos enteros. Si un pasaje te frena, aislalo dos o tres pulsos antes y después, y loopealo lento; después volvé al riff entero. Fijate que el raking sea un solo movimiento del dedo que cae a la cuerda de abajo, no dos pulsaciones.
+
+**Creative Bass · 5 min — ejemplo del día: 1f · 70 BPM** (CB p. 14). Fa mayor: un acorde de séptima y después una frase pentatónica. En el primer compás podés usar el dedo 4 por lo abierto de los primeros trastes (o el 3, si te queda mejor). Los hammer-ons van a tiempo: las corcheas no se aceleran. En el compás 7 (Em7b5), cejilla con el dedo 1: la punta pisa la nota y la base del dedo pisa el traste 12 de la G.
+
+**Creative Bass · 5 min — fijo: 4a · 70 BPM** (CB p. 35). Semicorcheas estilo Rocco Prestia. El objetivo del libro es 120, empezando bastante más lento *(libro)*. Alternancia estricta índice-medio, arrancando con el índice. Al final del primer compás, las dos últimas notas van con el dedo 4: así la mano queda en posición para la D del traste 5 de la A con el dedo 2. Mirá las dos manos, no solo la izquierda.
 
 ### Oído — 12 min
 
@@ -178,7 +199,16 @@ Después, una vuelta con la fundamental en el tiempo 1 y otra con la tercera. O�
 
 ### Técnica — 23 min
 
-La rutina. Permutaciones del miércoles.
+**Permutaciones · 5 min** (CF p. 19). 2-3-1-4 · 2-3-4-1 · 2-4-1-3 · 2-4-3-1. Treinta segundos cada una, con metrónomo.
+
+**Complete Fingerstyle · 8 min — 2g y 5a** (CF p. 30 y 56).
+
+- **2g (3 min) · 70 BPM.**
+- **5a (5 min) · 60 BPM.** Entra Building Speed. Patrón cíclico de semicorcheas que cruza cuerdas todo el tiempo: un dedo por traste y alternancia estricta. El libro lo dice así: para tocar rápido, primero tocá lento. Fijate que todas las notas tengan el mismo volumen cuando cambiás de cuerda.
+
+**Creative Bass · 5 min — ejemplo del día: 1g · 60 BPM** (CB p. 15). Mi mayor sobre una nota pedal: la E al aire sostiene mientras los acordes (E, A, G#m, F#m) se mueven arriba. Acá la mano derecha cambia: la fundamental con el pulgar, la tercera con el índice y la séptima con el medio. Memorizá las formas y los intervalos; sirven para cualquier acorde mayor o menor.
+
+**Creative Bass · 5 min — fijo: 4i · 65 BPM** (CB p. 43).
 
 ### Oído — 12 min
 
@@ -204,7 +234,16 @@ Es incómodo a propósito. Es la situación real del trío: con dos guitarras y 
 
 ### Técnica — 23 min
 
-La rutina. Permutaciones del jueves.
+**Permutaciones · 5 min** (CF p. 19). 3-1-2-4 · 3-1-4-2 · 3-2-1-4 · 3-2-4-1. Treinta segundos cada una, con metrónomo.
+
+**Complete Fingerstyle · 8 min — 2g y 5a** (CF p. 30 y 56).
+
+- **2g (3 min) · 75 BPM.**
+- **5a (5 min) · 65 BPM.** Si sale limpio, seguí subiendo de a 5 hasta donde deje de salir y anotá ese número: es la marca para mañana *(libro)*.
+
+**Creative Bass · 5 min — ejemplo del día: 1h · 50 BPM** (CB p. 16). Uno de los dos "monstruos" del capítulo, en Fa# mayor. No tiene objetivo de velocidad: el objetivo es tocarlo sin tropiezos *(libro)*. Los 50 BPM no se suben en la semana. Se aprende de a dos compases, así que no se termina hoy; seguís mañana desde donde quedaste. Alternancia estricta. Cada compás es una misma forma de dos cuerdas repetida una octava más abajo. Un arpegio baja arrancando con pull-off y el siguiente sube arrancando con hammer-on. Hay dos cambios difíciles: de una forma a la otra dentro del compás, y de un arpegio al siguiente. La regla es mover el dedo a la nota siguiente una fracción antes de tocarla.
+
+**Creative Bass · 5 min — fijo: 4a · 75 BPM** (CB p. 35). Cuando te salga limpio arrancando con el índice, probá arrancar con el medio. Quedate con el que te resulte más natural.
 
 ### Oído — 12 min
 
@@ -232,7 +271,16 @@ Es el camino inverso al de un bajista de formación, y es tu ventaja. Un vamp al
 
 ### Técnica — 23 min
 
-La rutina. Permutaciones del viernes.
+**Permutaciones · 5 min** (CF p. 19). 3-4-1-2 · 3-4-2-1 · 4-1-2-3 · 4-1-3-2. Treinta segundos cada una, con metrónomo.
+
+**Complete Fingerstyle · 8 min — 5a y 5b** (CF p. 56–57).
+
+- **5a (4 min) · la marca de ayer +5.** Si ayer no pasaste de 65, hoy 70.
+- **5b (4 min) · 60 BPM** *(libro)*. Escala de La mayor en semicorcheas. Una vuelta en La, como está en el libro, y otra en **Re mayor**, la tonalidad de la semana. Que las notas fluyan una en la otra, sin cortes. Si a 60 sale limpio, subís de a 5 hasta donde deje de salir y anotás ese número.
+
+**Creative Bass · 5 min — ejemplo del día: 1h o 1i · 50 BPM** (CB p. 16). Si ayer cerraste 1h entero, hoy va **1i**: es lo mismo al revés. Si no, seguís con 1h de a dos compases. Cuando tengas los dos, el libro propone tocarlos seguidos como un solo ejercicio de resistencia.
+
+**Creative Bass · 5 min — fijo: 4i · 70 BPM** (CB p. 43). Anotá este número junto al del termómetro: tienen que ir subiendo juntos.
 
 ### Oído — 12 min
 
