@@ -118,6 +118,26 @@
     return null;
   }
 
+  /* Un item puede traer "dias": clases sueltas, una por día, cada una en su
+     propio .md. Se listan dentro del item y se abren en su propia página. */
+  function diasDe(item) {
+    return Array.isArray(item.dias) ? item.dias : [];
+  }
+
+  function buscarDia(item, slug) {
+    var dias = diasDe(item);
+    for (var i = 0; i < dias.length; i++) {
+      if (slugDe(dias[i].archivo || '') === slug) return i;
+    }
+    return -1;
+  }
+
+  function rutaDe(sec, sub, item, dia) {
+    var r = '#/' + sec.clave + '/' + sub.clave + '/' + slugDe(item.archivo);
+    if (dia) r += '/' + slugDe(dia.archivo);
+    return r;
+  }
+
   /* Todos los documentos del sitio, aplanados. Lo usa la búsqueda. */
   function todosLosDocumentos() {
     var docs = [];
@@ -125,8 +145,13 @@
       sec.subsecciones.forEach(function (sub) {
         sub.items.forEach(function (item) {
           if (item.archivo) {
-            docs.push({ seccion: sec, sub: sub, item: item });
+            docs.push({ seccion: sec, sub: sub, item: item, ruta: rutaDe(sec, sub, item) });
           }
+          diasDe(item).forEach(function (dia) {
+            if (dia.archivo) {
+              docs.push({ seccion: sec, sub: sub, item: dia, ruta: rutaDe(sec, sub, item, dia) });
+            }
+          });
         });
       });
     });
@@ -372,6 +397,19 @@
     document.title = item.titulo + ' — ' + TITULO_BASE;
     ponerCabecera(destino, sec.titulo + ' · ' + sub.titulo, item.titulo, item.fecha || '');
 
+    var dias = diasDe(item);
+
+    /* Las clases por día van primero: es lo que se abre todos los días. */
+    if (dias.length) {
+      destino.appendChild(el('div', 'rotulo', 'Clases'));
+      var cajaDias = el('div', 'tarjetas');
+      dias.forEach(function (dia) {
+        cajaDias.appendChild(tarjeta(rutaDe(sec, sub, item, dia), dia.titulo, '', dia.descripcion || ''));
+      });
+      destino.appendChild(cajaDias);
+      destino.appendChild(el('div', 'rotulo', 'La semana'));
+    }
+
     var hueco = el('div');
     hueco.appendChild(el('p', 'cargando', 'Cargando…'));
     destino.appendChild(hueco);
@@ -381,10 +419,50 @@
       hueco.appendChild(renderizarMarkdown(md, { vertical: item.vertical === true }));
     }).catch(function () {
       vaciar(hueco);
+      if (dias.length) return;   // con clases por día, la nota de la semana es opcional
       hueco.appendChild(el('div', 'aviso',
         'Este material todavía no está escrito. Figura en el índice pero falta el archivo ' +
         item.archivo + '.'));
     });
+  }
+
+  // --- clase de un día
+
+  function vistaDia(destino, sec, sub, item, i) {
+    var dias = diasDe(item);
+    var dia = dias[i];
+    document.title = dia.titulo + ' · ' + item.titulo + ' — ' + TITULO_BASE;
+    ponerCabecera(destino, sec.titulo + ' · ' + (item.semana ? 'Semana ' + item.semana : item.titulo), dia.titulo);
+
+    var hueco = el('div');
+    hueco.appendChild(el('p', 'cargando', 'Cargando…'));
+    destino.appendChild(hueco);
+
+    traerDocumento(dia.archivo).then(function (md) {
+      vaciar(hueco);
+      hueco.appendChild(renderizarMarkdown(md, { vertical: dia.vertical === true }));
+    }).catch(function () {
+      vaciar(hueco);
+      hueco.appendChild(el('div', 'aviso',
+        'Esta clase todavía no está escrita. Figura en el índice pero falta el archivo ' +
+        dia.archivo + '.'));
+    });
+
+    /* Anterior y siguiente, para pasar de día sin volver al índice. */
+    var acc = el('div', 'acciones');
+    if (i > 0) {
+      var ant = el('a', 'boton secundario');
+      ant.href = rutaDe(sec, sub, item, dias[i - 1]);
+      ant.textContent = '← ' + (dias[i - 1].titulo.split(' — ')[0]);
+      acc.appendChild(ant);
+    }
+    if (i < dias.length - 1) {
+      var sig = el('a', 'boton');
+      sig.href = rutaDe(sec, sub, item, dias[i + 1]);
+      sig.textContent = (dias[i + 1].titulo.split(' — ')[0]) + ' →';
+      acc.appendChild(sig);
+    }
+    destino.appendChild(acc);
   }
 
   // --- búsqueda
@@ -450,7 +528,7 @@
           hallados++;
 
           var a = el('a', 'tarjeta');
-          a.href = '#/' + d.seccion.clave + '/' + d.sub.clave + '/' + slugDe(d.item.archivo);
+          a.href = d.ruta;
           var cabeza = el('div', 'tarjeta-cabeza');
           cabeza.appendChild(el('div', 'tarjeta-titulo', d.item.titulo));
           cabeza.appendChild(el('div', 'tarjeta-meta', d.seccion.titulo + ' · ' + d.sub.titulo));
@@ -498,10 +576,14 @@
     if (partes.length === 2 && partes[0] !== 'buscar') {
       destino = '#/' + partes[0];
       texto = '← ' + (buscarSeccion(partes[0]) || {}).titulo;
-    } else if (partes.length >= 3) {
+    } else if (partes.length === 3) {
       destino = '#/' + partes[0] + '/' + partes[1];
       var sub = buscarSub(buscarSeccion(partes[0]), partes[1]);
       texto = '← ' + (sub ? sub.titulo : 'Volver');
+    } else if (partes.length >= 4) {
+      destino = '#/' + partes[0] + '/' + partes[1] + '/' + partes[2];
+      var item = buscarItem(buscarSub(buscarSeccion(partes[0]), partes[1]), partes[2]);
+      texto = '← ' + (item ? (item.semana ? 'Semana ' + item.semana : item.titulo) : 'Volver');
     }
     barraVolver.href = destino;
     barraVolver.textContent = texto;
@@ -536,7 +618,12 @@
         else {
           var item = buscarItem(sub, partes[2]);
           if (!item) { noEncontrado(app); }
-          else { vistaDocumento(app, sec, sub, item); }
+          else if (partes.length === 3) { vistaDocumento(app, sec, sub, item); }
+          else {
+            var i = buscarDia(item, partes[3]);
+            if (i === -1) { noEncontrado(app); }
+            else { vistaDia(app, sec, sub, item, i); }
+          }
         }
       }
     }

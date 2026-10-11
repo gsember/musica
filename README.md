@@ -27,6 +27,17 @@ Dos pasos, siempre:
 Campos posibles: `archivo`, `titulo`, `descripcion`, `fecha`, `semana` (ubica el
 archivo en la grilla del curso) y `vertical: true` (para videos filmados en vertical).
 
+Una semana del curso puede traer `dias`: una lista de clases, una por día, cada una
+en su propio `.md`. La página de la semana las muestra como botones y cada clase se
+abre sola, con botones de día anterior y siguiente.
+
+```json
+{ "archivo": "bajo/curso/semana-02.md", "titulo": "Semana 2 — …", "semana": 2,
+  "dias": [
+    { "archivo": "bajo/curso/semana-02/dia-1.md", "titulo": "Día 1 — …" }
+  ] }
+```
+
 Una URL de YouTube sola en su renglón se convierte en reproductor. No se escribe HTML.
 
 ## Estructura

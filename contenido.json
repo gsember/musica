@@ -17,7 +17,29 @@
         {
           "archivo": "bajo/curso/semana-01.md",
           "titulo": "Semana 1 — Oír la función, no buscar la nota",
-          "semana": 1
+          "semana": 1,
+          "dias": [
+            {
+              "archivo": "bajo/curso/semana-01/dia-1.md",
+              "titulo": "Día 1 — Anclar el centro"
+            },
+            {
+              "archivo": "bajo/curso/semana-01/dia-2.md",
+              "titulo": "Día 2 — Mayor y menor"
+            },
+            {
+              "archivo": "bajo/curso/semana-01/dia-3.md",
+              "titulo": "Día 3 — El camino más corto"
+            },
+            {
+              "archivo": "bajo/curso/semana-01/dia-4.md",
+              "titulo": "Día 4 — Sin mirar el mástil"
+            },
+            {
+              "archivo": "bajo/curso/semana-01/dia-5.md",
+              "titulo": "Día 5 — Repertorio real y toma de la semana"
+            }
+          ]
         }
       ]
     },
